@@ -75,7 +75,7 @@ $review->deactivate();
 ### Scopes
 
 By default from active entity return only active records with next condition: `Entity is true and start_at IS NULL OR <= then current timestamp ('2023-10-23 13:52:37')
-and end_at IS NULL OR end_at >= then current timestamp ('2023-10-23 13:52:37')`
+and end_at IS NULL OR end_at >= then current timestamp ('2023-10-23 13:52:37')`.
 You can change this by applying scope to your Eloquent model.
 
 * withInactive
